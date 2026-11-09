@@ -37,7 +37,7 @@ The service is not designed for automatic subreddit crawling, bulk collection, u
 
 ## Deployment and source code
 
-The operational Telegram bot is hosted privately. This repository intentionally contains only the materials relevant to Reddit's API access review. It does not expose the private deployment configuration, unrelated downloader integrations, cookies, or credentials.
+The operational Telegram bot is hosted privately. This repository contains a copy of the current experimental Reddit resolver and its parser tests, alongside review documentation. The resolver currently uses a third-party public RapidSave endpoint; it does **not** use Reddit OAuth or Reddit's Data API. The code and tests are included to make the current state inspectable, not to claim that end-to-end Reddit downloads are working. Private deployment configuration, unrelated downloader integrations, cookies, and credentials are not included.
 
 ## Contact
 
